@@ -16,7 +16,10 @@ body {
     position: fixed;
     left: 0;
     right: 0;
-    /* height: 100%; */
+    padding: 8rem 3rem;
+    background-color: rgb(223, 91, 91);
+    width: 24%;
+    height: 100%;
 }
 #right-wrapper{
     margin-left: 24rem;
@@ -30,10 +33,16 @@ body {
     flex-flow: row nowrap;
 }
 #about-right{
-    flex-basis: 40%;
+    /* flex-basis: 25%; */
 }
 #picture-right{
     position: absolute;
     flex-basis: 60%;
     right: 0;
+}
+.label{
+    color: #ffffff;
+}
+.label-info{
+    color: #362B2E;
 }
