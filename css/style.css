@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    height: 100%;
+}
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+#left-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* height: 100%; */
+}
+#right-wrapper{
+    margin-left: 24rem;
+    height: 100%;
+}
+#profile-right{
+    background-color: red;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#about-right{
+    flex-basis: 40%;
+}
+#picture-right{
+    position: absolute;
+    flex-basis: 60%;
+    right: 0;
+}
