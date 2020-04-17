@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: inherit;
 }
+a{
+    text-decoration: none;
+}
 html{
     height: 100%;
 }
@@ -15,60 +18,84 @@ body {
 #left-wrapper{
     position: fixed;
     left: 0;
-    right: 0; 
-    padding: 15rem 3rem 8rem 3rem;
+    top: 0;
+    padding: 11rem 3rem 8rem 3rem;
     background-color: #100D08;
-    width: 24%;
+    /* width: 24%; */
     height: 100%;
 }
 #right-wrapper{
-    margin-left: 24rem;
+    margin-left: 315px;
     height: 100%;
 }
 #profile-right{
-    background-color: #F9F0FF;
-    position: relative;
+    /* position: relative; */
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
 }
 #about-right{
-    padding: 5rem;
+    background-color: #F9F0FF;
+    height: 100%;
+    padding: 8rem 5rem;
     flex-basis: 50%;
     /* font-family: 'Overpass', sans-serif; */
 }
-#picture-right{
-    position: absolute;
-    flex-basis: 60%;
-    right: 0;
-}
-.label,.label-info{
-    font-family: 'Noto Sans', sans-serif;
-}
+/* #picture-right{
+    /* position: absolute; */
+    /* right: 0; */
+
 .label{
+    font-family: 'Caveat', cursive;
     color: #ffffff;
     text-transform: uppercase;
     font-size: .8rem;
+    font-weight: bold;
 }
 .label-info{
     color: #C09181;
     margin-bottom: 2rem;
-    font-size: .95rem;
+    font-size: .8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .about-intro{
     color: #362B2E;
-    font-size: 1.3rem;
-    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.7rem;
+    font-family: 'Caveat', cursive;
 }
 .about-name{
     font-family: 'Overpass', sans-serif;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #C09181;
+    padding: 3rem 0 1.5rem 0;
 }
 .about-description{
     font-size: 1rem;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     line-height: 2rem;
 }
+#profile-social{
+    margin: 5.5rem 0;
+}
+#profile-social a{
+    display: inline-block;
+    font-size: .8rem;
+    padding-right: 3rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+    color: #362B2E;
+}
+#picture-right{
+    flex-basis: 50%;
+    background-image: url('../images/LRM_EXPORT_21721874864411_20190830_085149507.jpeg');
+    background-size: cover;
+    width: 500px;
+    height: 800px;
+    background-repeat:no-repeat;
+}
+/* @media (max-width:1417){
+
+} */
