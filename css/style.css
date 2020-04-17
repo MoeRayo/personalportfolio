@@ -149,6 +149,52 @@ body {
 #bio-secret{
     font-size: .7rem;
 }
+
+/* portfolio */
+#outer-portfolio{
+    background-color: #030201;
+    text-align: center;
+    color: #d48669;
+    font-family: 'Caveat', cursive;
+}
+#outer-portfolio h2{
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2rem;
+}
+#other-projects {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1rem;
+    margin-top: -.4rem;
+    word-spacing: .3rem;
+
+}
+#other-projects a{
+ color: #F9F0FF;
+}
+#portfolio{
+    padding: 4rem 4rem 0 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #030201;
+    text-align: center;
+    color: #d48669;
+    font-family: 'Caveat', cursive;
+
+    
+
+}
+.portfolio-card1,.portfolio-card3,.portfolio-card5{
+    margin:0 4rem 3rem;
+}
+#portfolio a{
+    color: #d48669;
+    
+}
 /* @media (max-width:1417){
 
 } */
+   
