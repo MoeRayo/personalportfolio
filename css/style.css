@@ -96,6 +96,59 @@ body {
     height: 800px;
     background-repeat:no-repeat;
 }
+/* section */
+#about-section{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #030201;
+    color: #C09181;
+    padding: 3rem;
+    font-family: 'Overpass', sans-serif;
+
+
+}
+#services{
+    flex-basis: 60%;
+}
+#bio{
+    flex-basis: 40%;
+    font-size: .9rem;
+    line-height: 2rem;
+    padding: 1.3rem;
+
+    /* padding: 3rem 2rem 0; */
+
+}
+.bio-sub{
+    padding-top: 1rem;
+}
+.icon-section{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.icon-card{
+    width: 40%;
+    background-color: #100D08;
+    /* background-color: #F9F0FF; */
+
+    margin: 0 2rem 1.5rem 0;
+    height: 30vh;
+    border-radius: 5px;
+    padding: 1rem;
+
+
+}
+.icon-card .heading{
+    margin: 2rem 0 1rem;
+}
+.heading,.bio-sub{
+    color: #d48669;
+    font-family: 'Caveat', cursive;
+}
+#bio-secret{
+    font-size: .7rem;
+}
 /* @media (max-width:1417){
 
 } */
