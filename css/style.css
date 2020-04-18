@@ -1038,7 +1038,7 @@ margin:0 auto;
 }
 @media (max-width:515px){
 
- .image1,.image2,.image3,.image,.image5,.image6{
+ .image1,.image2,.image3,.image4,.image5,.image6{
     display: none;
 }
 .image7{
@@ -1046,6 +1046,12 @@ margin:0 auto;
 }
 }
 @media (max-width:374px){
+.image1,.image2,.image3,.image4,.image5,.image6{
+    display: none;
+}
+.image7{
+    display: unset;
+}
     .icon-card{
         flex-basis: 100%;
         width:100%;
@@ -1063,9 +1069,5 @@ margin:0 auto;
                 color: #C09181;
                 padding: 3rem 0 1.5rem 0;
             }
-            /* #portfolio div{
-                width:100%;
-                margin: 0 auto;
-                
-                } */
+            
 }
