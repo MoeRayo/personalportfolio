@@ -165,16 +165,8 @@ body {
     text-align: left;
     padding-left: 2rem;
 }
-#other-projects {
-    font-family: 'Overpass', sans-serif;
-    font-size: 1rem;
-    margin-top: -.4rem;
-    word-spacing: .3rem;
 
-}
-#other-projects a{
- color: #F9F0FF;
-}
+
 #portfolio{
     padding: 4rem 4rem 0 4rem;
     display: flex;
@@ -187,12 +179,146 @@ body {
     
 
 }
+
 .portfolio-card1,.portfolio-card3,.portfolio-card5{
     margin:0 4rem 3rem;
 }
 #portfolio a{
     color: #d48669;
     
+}
+/* .skillAndContact{
+    padding: 3rem;
+} */
+.skill{
+    /* padding: 3rem; */
+    flex-basis: 45%;
+}
+.skill-bar{
+    width: 80%; /* Full width */
+    background-color:#100D08;
+  color: #F9F0FF;
+  font-size: .6rem;
+
+
+
+}
+.skills{
+    text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  font-size: .7rem;
+
+}
+.html {
+    width: 90%;
+     background-color: #d48669;
+
+} /* Green */
+.css {
+    width: 80%;
+    background-color: #d48669;
+  color: #F9F0FF;
+
+} /* Blue */
+
+.bootstrap {
+    width: 80%; 
+    background-color:#d48669;
+}
+.sass {
+    width: 70%;
+    background-color: #d48669;
+}
+.js {
+    width: 40%; 
+    background-color: #C09181;
+} 
+.skill p{
+    color: #F9F0FF;
+    padding-top: 1rem;
+    font-size: .7rem;
+    font-family: 'Caveat', cursive;
+
+}
+#pHtml{
+    padding-top: 0;
+}
+.skillAndContact{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #030201;
+    padding: 3rem;
+}
+.contact{
+    flex-basis: 50%;
+    background-color: #d48669;
+    height: 65vh;
+    border-radius: 5% 0 5% 0;
+    padding: 2rem 2rem;
+    /* width: 80%; */
+}
+.contact-head{
+    font-family: 'Overpass', sans-serif;
+    color: #100D08;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    color: #030201;
+    font-family: 'Caveat', cursive;
+    font-size: 1.3rem;
+    padding-bottom: 2.7rem;
+
+}
+input,textarea{
+    border: none;
+    background-color: #d48669;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #F9F0FF;
+    margin-bottom: 2rem;
+    color: #F9F0FF;
+    font-size: 1rem;
+}
+
+#submit{
+    border: 2px solid #F9F0FF;
+    padding: 1rem 0;
+    cursor: pointer;
+    color: #030201;
+    font-family: 'Caveat', cursive;
+    font-size: 1.3rem;
+
+
+}
+#submit:hover,#submit:active{
+    background-color: #C09181;
+    /* font-size: 1.2rem;
+    padding: 1.3rem 0; */
+}
+.social-icons{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.icon{
+    display: inline-block;
+    margin-right: .9rem;
+    padding: .3rem .7rem;
+    border: 1px solid #d48669;
+    border-radius: 40%;
+    cursor: pointer;
+}
+.fa:hover,.fa:active{
+    color: #F9F0FF;
+}
+.icon:nth-last-of-type(1){
+    margin-right: 0;
+}
+.fa{
+    color: #C09181;
 }
 /* @media (max-width:1417){
 
