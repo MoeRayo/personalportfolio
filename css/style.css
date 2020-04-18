@@ -355,6 +355,7 @@ input,textarea{
 .image4,
 .image5,
 .image6,
+.image7
 .sidebar{
     display: none;
 }
@@ -1030,12 +1031,12 @@ margin:0;
 .portfolio-card6--a{
 display: none;
 }
-.portfolio-card1--d,
-.portfolio-card2--d,
-.portfolio-card3--d,
-.portfolio-card4--d,
-.portfolio-card5--d,
-.portfolio-card6--d{
+.portfolio-card1--e,
+.portfolio-card2--e,
+.portfolio-card3--e,
+.portfolio-card4--e,
+.portfolio-card5--e,
+.portfolio-card6--e{
 display: unset;
 }
 .skillAndContact{
@@ -1054,10 +1055,34 @@ margin:0 auto;
  .sidebar-inner{
      background-color: red;
  }
- .image1,.image2,.image3,.image,.image5{
+ .image1,.image2,.image3,.image,.image5,.image6{
     display: none;
 }
-.image6{
+.image7{
     display: unset;
 }
+}
+@media (max-width:374px){
+    .icon-card{
+        flex-basis: 100%;
+        width:100%;
+        height: 40vh;
+        margin: 0 0 1rem 0;
+        
+        }
+        .left{
+            margin-right: 0;
+            }
+            .about-name{
+                
+                font-weight: 800;
+                font-size: 4rem;
+                color: #C09181;
+                padding: 3rem 0 1.5rem 0;
+            }
+            /* #portfolio div{
+                width:100%;
+                margin: 0 auto;
+                
+                } */
 }
