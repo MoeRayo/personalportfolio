@@ -1049,7 +1049,7 @@ display: unset;
 margin:0 auto;
 }
 }
-@media screen and (max-width:515px) and (min-width:375px){
+@media screen and (max-width:515px) and (min-width:200px){
  .sidebar-inner{
      background-color: red;
  }
