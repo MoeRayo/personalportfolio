@@ -904,7 +904,7 @@ form{
         padding: 0 0 2rem 0rem;
     }
 }
-@media screen and (max-width:669px) and (min-width:375px){
+@media screen and (max-width:669px) and (min-width:200px){
     #left-wrapper{
         display:none;
     }
