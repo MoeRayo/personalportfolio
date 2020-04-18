@@ -918,7 +918,7 @@ form{
 #about-right{
     flex-basis: 100%;
     width: 100%;
-padding: 8rem 2rem;
+padding: 8rem .5rem;
 height: 50%;
 
 }
