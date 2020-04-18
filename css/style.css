@@ -904,7 +904,8 @@ form{
         padding: 0 0 2rem 0rem;
     }
 }
-@media screen and (max-width:669px) and (min-width:200px){
+
+@media (max-width: 575.98px) {
     #left-wrapper{
         display:none;
     }
@@ -1049,7 +1050,7 @@ display: unset;
 margin:0 auto;
 }
 }
-@media screen and (max-width:515px) and (min-width:200px){
+@media (max-width:515px){
  .sidebar-inner{
      background-color: red;
  }
