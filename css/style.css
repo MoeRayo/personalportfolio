@@ -223,7 +223,7 @@ form{
     background-color: #d48669;
 width: 100%;
 padding: 2rem 2rem;
-height: 65vh;
+height:470px;
 border-radius: 5% 0 5% 0;
 }
 .contact-head{
@@ -851,6 +851,8 @@ padding: 8rem 2rem;
 }
 #sidebar-card2{
     flex-basis: 45%;
+    margin: 0 auto;
+
 }
 #profile-right{
     flex-flow: column wrap;
