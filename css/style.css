@@ -355,7 +355,7 @@ input,textarea{
 .image4,
 .image5,
 .image6,
-.image7
+.image7,
 .sidebar{
     display: none;
 }
@@ -370,7 +370,6 @@ input,textarea{
     }
     #left-wrapper{
         padding:11rem 1.5rem 8rem 1.5rem ;
-        background-color: red;
     }
     #right-wrapper{
         margin-left: 260px;
@@ -682,7 +681,6 @@ input,textarea{
     padding: 8rem 2rem;
 }
 .icon-card{
-    background-color: tomato;
     width: 43%;
     margin: 0 1.5rem 1.3rem 0;
     height: 37vh;
@@ -735,9 +733,7 @@ input,textarea{
 }
 }
 @media screen and (max-width:924px) and (min-width:810px){
-    .icon-card{
-        background-color: antiquewhite;
-    }
+    
     .image1,.image2,.image3.image4,.image5{
         display: none;
     }
@@ -754,7 +750,6 @@ input,textarea{
 @media screen and (max-width:809px) and (min-width:670px){
     #left-wrapper{
         padding:9.5rem 1.5rem 8rem 1.5rem ;
-        background-color: aqua;
     }
     #right-wrapper{
         margin-left: 260px;
@@ -854,41 +849,31 @@ form{
 }
 }
 @media screen and (max-width:799px) and (min-width:790px){
-    #picture-right{
-        background-color: yellow;
-    }
+   
     #picture-right{
         padding: 0 0 2rem 4.5rem;
     }
 }
 @media screen and (max-width:789px) and (min-width:780px){
-    #picture-right{
-        background-color: green;
-    }
+    
     #picture-right{
         padding: 0 0 2rem 4rem;
     }
 }
 @media screen and (max-width:779px) and (min-width:770px){
-    #picture-right{
-        background-color: red;
-    }
+    
     #picture-right{
         padding: 0 0 2rem 3.8rem;
     }
 }
 @media screen and (max-width:769px) and (min-width:760px){
-    #picture-right{
-        background-color: magenta;
-    }
+    
     #picture-right{
         padding: 0 0 2rem 3.5rem;
     }
 }
 @media screen and (max-width:759px) and (min-width:740px){
-    #picture-right{
-        background-color: magenta;
-    }
+   
     #picture-right{
         padding: 0 0 2rem 3.3rem;
     }
@@ -920,7 +905,7 @@ form{
     flex-basis: 100%;
     width: 100%;
 padding: 8rem 2rem;
-height: 50%;
+
 
 }
 .image1,.image2,.image3,.image4,.image6{
@@ -983,7 +968,7 @@ height: 50%;
     flex-basis: 100%;
     width: 100%;
 padding: 8rem 2rem;
-height: 50%;
+
 
 }
 /* #picture-right{
@@ -1052,10 +1037,8 @@ margin:0 auto;
 }
 }
 @media (max-width:515px){
- .sidebar-inner{
-     background-color: red;
- }
- .image1,.image2,.image3,.image,.image5,.image6{
+
+ .image1,.image2,.image3,.image4,.image5,.image6{
     display: none;
 }
 .image7{
@@ -1063,6 +1046,12 @@ margin:0 auto;
 }
 }
 @media (max-width:374px){
+.image1,.image2,.image3,.image4,.image5,.image6{
+    display: none;
+}
+.image7{
+    display: unset;
+}
     .icon-card{
         flex-basis: 100%;
         width:100%;
@@ -1080,9 +1069,5 @@ margin:0 auto;
                 color: #C09181;
                 padding: 3rem 0 1.5rem 0;
             }
-            /* #portfolio div{
-                width:100%;
-                margin: 0 auto;
-                
-                } */
+            
 }
