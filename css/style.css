@@ -21,7 +21,6 @@ body {
     top: 0;
     padding: 11rem 3rem 8rem 3rem;
     background-color: #100D08;
-    /* width: 24%; */
     height: 100%;
 }
 #right-wrapper{
@@ -86,12 +85,6 @@ body {
 #picture-right{
     flex-basis: 50%;
     background-color: #F9F0FF;
-
-    /* background-image: url('../images/LRM_EXPORT_21721874864411_20190830_085149507.jpeg');
-    background-size: cover;
-    width: 500px;
-    height: 800px;
-    background-repeat:no-repeat; */
 }
 /* section */
 
@@ -102,8 +95,6 @@ body {
     color: #C09181;
     padding: 3rem;
     font-family: 'Overpass', sans-serif;
-
-
 }
 #services{
     flex-basis: 60%;
@@ -113,9 +104,6 @@ body {
     font-size: .9rem;
     line-height: 2rem;
     padding: 1.3rem;
-
-    /* padding: 3rem 2rem 0; */
-
 }
 .bio-sub{
     padding-top: 1rem;
@@ -128,15 +116,11 @@ body {
 .icon-card{
     width: 40%;
     background-color: #100D08;
-    /* background-color: #F9F0FF; */
-
     font-size: .95rem;
     margin: 0 2rem 1.5rem 0;
     height: 240px;
     border-radius: 5px;
     padding: 1rem .6rem;
-
-
 }
 .icon-card .heading{
     margin: 2rem 0 1rem;
@@ -164,8 +148,6 @@ body {
     text-align: left;
     padding-left: 2rem;
 }
-
-
 #portfolio{
     padding: 4rem 4rem 0 4rem;
     display: flex;
@@ -174,9 +156,6 @@ body {
     text-align: center;
     color: #d48669;
     font-family: 'Caveat', cursive;
-
-    
-
 }
 
 .portfolio-card1,.portfolio-card3,.portfolio-card5{
@@ -184,43 +163,31 @@ body {
 }
 #portfolio a{
     color: #d48669;
-    
 }
-/* .skillAndContact{
-    padding: 3rem;
-} */
 .skill{
-    /* padding: 3rem; */
     flex-basis: 45%;
 }
 .skill-bar{
-    width: 80%; /* Full width */
+    width: 80%; 
     background-color:#100D08;
   color: #F9F0FF;
   font-size: .6rem;
-
-
-
 }
 .skills{
-    text-align: right; /* Right-align text */
-  padding-top: 5px; /* Add top padding */
-  padding-bottom: 5px; /* Add bottom padding */
+    text-align: right; 
+  padding-top: 5px;
+  padding-bottom: 5px; 
   font-size: .7rem;
-
 }
 .html {
     width: 90%;
      background-color: #d48669;
-
-} /* Green */
+} 
 .css {
     width: 80%;
     background-color: #d48669;
   color: #F9F0FF;
-
-} /* Blue */
-
+} 
 .bootstrap {
     width: 80%; 
     background-color:#d48669;
@@ -238,7 +205,6 @@ body {
     padding-top: 1rem;
     font-size: .7rem;
     font-family: 'Caveat', cursive;
-
 }
 #pHtml{
     padding-top: 0;
@@ -252,8 +218,6 @@ body {
 }
 .contact{
     flex-basis: 50%;
-    /* background-color: #d48669; */
-    /* width: 80%; */
 }
 form{
     background-color: #d48669;
@@ -261,9 +225,6 @@ width: 100%;
 padding: 2rem 2rem;
 height: 65vh;
 border-radius: 5% 0 5% 0;
-
-
-
 }
 .contact-head{
     font-family: 'Overpass', sans-serif;
@@ -288,7 +249,6 @@ input,textarea{
     color: #F9F0FF;
     font-size: 1rem;
 }
-
 #submit{
     border: 2px solid #F9F0FF;
     padding: 1rem 0;
@@ -296,13 +256,9 @@ input,textarea{
     color: #030201;
     font-family: 'Caveat', cursive;
     font-size: 1.3rem;
-
-
 }
 #submit:hover,#submit:active{
     background-color: #C09181;
-    /* font-size: 1.2rem;
-    padding: 1.3rem 0; */
 }
 .social-icons{
     width: 90%;
@@ -360,8 +316,6 @@ input,textarea{
 .sidebar{
     display: none;
 }
-
-
 @media screen and (max-width:1490px) and (min-width:1335px){
     .image1{
         display: none;
@@ -431,7 +385,6 @@ input,textarea{
     }
     #left-wrapper{
         padding:9.5rem 1.5rem 8rem 1.5rem ;
-        /* background-color: yellow; */
     }
     #right-wrapper{
         margin-left: 260px;
@@ -465,9 +418,7 @@ input,textarea{
 #right-wrapper{
     margin-left: 0;
 }
-.icon-card{
-    /* background-color: violet; */
-}
+
 .sidebar{
     display: unset;
     width:    100%;
@@ -476,8 +427,7 @@ input,textarea{
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
+   
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
@@ -488,19 +438,12 @@ input,textarea{
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
+   
 }
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
+   
 }
 }
 @media screen and (max-width:1174px) and (min-width:1100px){
@@ -543,13 +486,11 @@ input,textarea{
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
+   
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
@@ -560,19 +501,12 @@ input,textarea{
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
+   
 }
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
 
-
-    /* width: 50%;
-    margin: 0 auto; */
 }
 }
 @media screen and (max-width:1099px) and (min-width:1000px){
@@ -593,7 +527,6 @@ input,textarea{
 }
 .icon-card{
     height: 250px;
-    /* background-color:green; */
 }
 .portfolio-card1--a,
 .portfolio-card2--a,
@@ -614,36 +547,23 @@ input,textarea{
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
-
 }
 #sidebar-card1{
     flex-basis: 45%;
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
 }
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
 }
 }
 @media screen and (max-width:999px) and (min-width:810px){
@@ -701,13 +621,11 @@ input,textarea{
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
+    
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
@@ -718,19 +636,12 @@ input,textarea{
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
+    
 }
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
+   
 }
 }
 @media screen and (max-width:924px) and (min-width:810px){
@@ -741,9 +652,6 @@ input,textarea{
     .image6{
         display: unset;
     }
-    /* #about-right{
-        padding: 8rem 3rem;
-    } */
     #picture-right{
         padding: 4rem 0;
     }
@@ -766,14 +674,7 @@ input,textarea{
         margin: 0 auto;
         padding: 0 0 2rem 5rem;
     }
-    /* #picture-right{
-        flex-basis: 100%;
-        background-image: url('../images/LRM_EXPORT_21721874864411_20190830_085149507.jpeg');
-        background-size: cover;
-        width: 500px;
-        height: 800px;
-        background-repeat:no-repeat;
-    } */
+    
         #profile-right{
             flex-flow: column wrap;
         }
@@ -784,9 +685,7 @@ input,textarea{
     height: 50%;
 
         }
-        /* #picture-right{
-            height: 50vh;
-        } */
+        
     #about-section{
         flex-flow: column wrap;
         padding: 2rem ;
@@ -931,18 +830,15 @@ padding: 8rem 2rem;
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    /* padding: 0 0 2rem 5rem; */
 }
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
+   
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
@@ -951,28 +847,10 @@ padding: 8rem 2rem;
 }
 #sidebar-card1{
     flex-basis: 45%;
-    /* margin-right: 0; */
-    /* width:100%; */
     margin: 0 auto;
-    /* text-align: center; */
-
-    /* text-align: right; */
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
 }
 #sidebar-card2{
     flex-basis: 45%;
-    /* width:100%; */
-    margin: 0 auto;
-
-    /* text-align: center; */
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
 }
 #profile-right{
     flex-flow: column wrap;
@@ -981,17 +859,10 @@ padding: 8rem 2rem;
     flex-basis: 100%;
     width: 100%;
 padding: 8rem 2rem;
-
-
 }
-/* #picture-right{
-    height: 50vh;
-} */
 #about-section{
 flex-flow: column wrap;
 padding: 2rem ;
-
-
 }
 #bio{
 flex-basis: 100%;
@@ -1081,7 +952,6 @@ margin:0 auto;
     width:100%;
     height: 270px;
     margin: 0 auto 1rem auto;
-    /* padding-bottom: 2rem; */
     
     }
     .left{
