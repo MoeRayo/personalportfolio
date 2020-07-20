@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![Design preview for the Fylo landing page with two column layout challenge](./images/readme-design.png)
+![Design preview](./images/readme-design.png)
 
 ## Welcome! 👋
 
