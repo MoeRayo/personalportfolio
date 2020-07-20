@@ -21,7 +21,6 @@ body {
     top: 0;
     padding: 11rem 3rem 8rem 3rem;
     background-color: #100D08;
-    /* width: 24%; */
     height: 100%;
 }
 #right-wrapper{
@@ -86,12 +85,6 @@ body {
 #picture-right{
     flex-basis: 50%;
     background-color: #F9F0FF;
-
-    /* background-image: url('../images/LRM_EXPORT_21721874864411_20190830_085149507.jpeg');
-    background-size: cover;
-    width: 500px;
-    height: 800px;
-    background-repeat:no-repeat; */
 }
 /* section */
 
@@ -102,8 +95,6 @@ body {
     color: #C09181;
     padding: 3rem;
     font-family: 'Overpass', sans-serif;
-
-
 }
 #services{
     flex-basis: 60%;
@@ -113,9 +104,6 @@ body {
     font-size: .9rem;
     line-height: 2rem;
     padding: 1.3rem;
-
-    /* padding: 3rem 2rem 0; */
-
 }
 .bio-sub{
     padding-top: 1rem;
@@ -128,14 +116,11 @@ body {
 .icon-card{
     width: 40%;
     background-color: #100D08;
-    /* background-color: #F9F0FF; */
-
+    font-size: .95rem;
     margin: 0 2rem 1.5rem 0;
-    height: 30vh;
+    height: 240px;
     border-radius: 5px;
-    padding: 1rem;
-
-
+    padding: 1rem .6rem;
 }
 .icon-card .heading{
     margin: 2rem 0 1rem;
@@ -163,8 +148,6 @@ body {
     text-align: left;
     padding-left: 2rem;
 }
-
-
 #portfolio{
     padding: 4rem 4rem 0 4rem;
     display: flex;
@@ -173,53 +156,38 @@ body {
     text-align: center;
     color: #d48669;
     font-family: 'Caveat', cursive;
-
-    
-
 }
 
-.portfolio-card1,.portfolio-card3,.portfolio-card5{
+.portfolio-card1,.portfolio-card3,.portfolio-card5,.portfolio-card7, .portfolio-card9{
     margin:0 4rem 3rem;
 }
 #portfolio a{
     color: #d48669;
-    
 }
-/* .skillAndContact{
-    padding: 3rem;
-} */
 .skill{
-    /* padding: 3rem; */
     flex-basis: 45%;
 }
 .skill-bar{
-    width: 80%; /* Full width */
+    width: 80%; 
     background-color:#100D08;
   color: #F9F0FF;
   font-size: .6rem;
-
-
-
 }
 .skills{
-    text-align: right; /* Right-align text */
-  padding-top: 5px; /* Add top padding */
-  padding-bottom: 5px; /* Add bottom padding */
+    text-align: right; 
+  padding-top: 5px;
+  padding-bottom: 5px; 
   font-size: .7rem;
-
 }
 .html {
     width: 90%;
      background-color: #d48669;
-
-} /* Green */
+} 
 .css {
     width: 80%;
     background-color: #d48669;
   color: #F9F0FF;
-
-} /* Blue */
-
+} 
 .bootstrap {
     width: 80%; 
     background-color:#d48669;
@@ -237,7 +205,6 @@ body {
     padding-top: 1rem;
     font-size: .7rem;
     font-family: 'Caveat', cursive;
-
 }
 #pHtml{
     padding-top: 0;
@@ -251,18 +218,13 @@ body {
 }
 .contact{
     flex-basis: 50%;
-    /* background-color: #d48669; */
-    /* width: 80%; */
 }
 form{
     background-color: #d48669;
 width: 100%;
 padding: 2rem 2rem;
-height: 65vh;
+height:470px;
 border-radius: 5% 0 5% 0;
-
-
-
 }
 .contact-head{
     font-family: 'Overpass', sans-serif;
@@ -287,7 +249,6 @@ input,textarea{
     color: #F9F0FF;
     font-size: 1rem;
 }
-
 #submit{
     border: 2px solid #F9F0FF;
     padding: 1rem 0;
@@ -295,13 +256,9 @@ input,textarea{
     color: #030201;
     font-family: 'Caveat', cursive;
     font-size: 1.3rem;
-
-
 }
 #submit:hover,#submit:active{
     background-color: #C09181;
-    /* font-size: 1.2rem;
-    padding: 1.3rem 0; */
 }
 .social-icons{
     width: 90%;
@@ -350,6 +307,22 @@ input,textarea{
 .portfolio-card6--c,
 .portfolio-card6--d,
 .portfolio-card6--e,
+.portfolio-card7--b,
+.portfolio-card7--c,
+.portfolio-card7--d,
+.portfolio-card7--e,
+.portfolio-card8--b,
+.portfolio-card8--c,
+.portfolio-card8--d,
+.portfolio-card8--e,
+.portfolio-card9--b,
+.portfolio-card9--c,
+.portfolio-card9--d,
+.portfolio-card9--e,
+.portfolio-card10--b,
+.portfolio-card10--c,
+.portfolio-card10--d,
+.portfolio-card10--e,
 .image2,
 .image3,
 .image4,
@@ -360,10 +333,9 @@ input,textarea{
     display: none;
 }
 
-
 @media screen and (max-width:1490px) and (min-width:1335px){
     .image1{
-        display: none;
+       display: none;
     }
     .image2{
         display: unset;
@@ -379,7 +351,11 @@ input,textarea{
 .portfolio-card3--a,
 .portfolio-card4--a,
 .portfolio-card5--a,
-.portfolio-card6--a{
+.portfolio-card6--a,
+.portfolio-card7--a,
+.portfolio-card8--a,
+.portfolio-card9--a,
+.portfolio-card10--a {
     display: none;
 }
 .portfolio-card1--b,
@@ -387,7 +363,11 @@ input,textarea{
 .portfolio-card3--b,
 .portfolio-card4--b,
 .portfolio-card5--b,
-.portfolio-card6--b{
+.portfolio-card6--b,
+.portfolio-card7--b,
+.portfolio-card8--b,
+.portfolio-card9--b,
+.portfolio-card10--b {
     display: unset;
 }
 #about-right{
@@ -430,7 +410,6 @@ input,textarea{
     }
     #left-wrapper{
         padding:9.5rem 1.5rem 8rem 1.5rem ;
-        /* background-color: yellow; */
     }
     #right-wrapper{
         margin-left: 260px;
@@ -441,7 +420,11 @@ input,textarea{
 .portfolio-card3--a,
 .portfolio-card4--a,
 .portfolio-card5--a,
-.portfolio-card6--a{
+.portfolio-card6--a,
+.portfolio-card7--a,
+.portfolio-card8--a,
+.portfolio-card9--a,
+.portfolio-card10--a{
     display: none;
 }
 .portfolio-card1--c,
@@ -449,11 +432,15 @@ input,textarea{
 .portfolio-card3--c,
 .portfolio-card4--c,
 .portfolio-card5--c,
-.portfolio-card6--c{
+.portfolio-card6--c,
+.portfolio-card7--c,
+.portfolio-card8--c,
+.portfolio-card9--c,
+.portfolio-card10--c{
     display: unset;
 }
 .icon-card{
-    height: 35vh;
+    height:250px;
 }
 
 }
@@ -464,43 +451,31 @@ input,textarea{
 #right-wrapper{
     margin-left: 0;
 }
-.icon-card{
-    /* background-color: violet; */
-}
+
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
-
 }
+
 #sidebar-card1{
     flex-basis: 45%;
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
 }
+
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
 }
+
 }
 @media screen and (max-width:1174px) and (min-width:1100px){
     #left-wrapper{
@@ -509,12 +484,15 @@ input,textarea{
 #right-wrapper{
     margin-left: 0;
 }
+
 #about-right{
     padding:9rem 2rem;
 }
+
 .image1,.image2,.image3{
     display: none;
 }
+
 .image4{
     display: unset;
 }
@@ -523,7 +501,11 @@ input,textarea{
 .portfolio-card3--a,
 .portfolio-card4--a,
 .portfolio-card5--a,
-.portfolio-card6--a{
+.portfolio-card6--a,
+.portfolio-card7--a,
+.portfolio-card8--a,
+.portfolio-card9--a,
+.portfolio-card10--a{
     display: none;
 }
 .portfolio-card1--b,
@@ -531,47 +513,37 @@ input,textarea{
 .portfolio-card3--b,
 .portfolio-card4--b,
 .portfolio-card5--b,
-.portfolio-card6--b{
+.portfolio-card6--b,
+.portfolio-card7--b,
+.portfolio-card8--b,
+.portfolio-card9--b,
+.portfolio-card10--b{
     display: unset;
 }
 .icon-card{
-    height: 35vh;
-    /* padding-bottom: 1.3rem; */
-    /* background-color: red; */
+    height: 250px;
 }
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
-
 }
 #sidebar-card1{
     flex-basis: 45%;
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
 }
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
 
-
-    /* width: 50%;
-    margin: 0 auto; */
 }
 }
 @media screen and (max-width:1099px) and (min-width:1000px){
@@ -591,15 +563,18 @@ input,textarea{
     display: unset;
 }
 .icon-card{
-    height: 35vh;
-    /* background-color:green; */
+    height: 250px;
 }
 .portfolio-card1--a,
 .portfolio-card2--a,
 .portfolio-card3--a,
 .portfolio-card4--a,
 .portfolio-card5--a,
-.portfolio-card6--a{
+.portfolio-card6--a,
+.portfolio-card7--a,
+.portfolio-card8--a,
+.portfolio-card9--a,
+.portfolio-card10--a{
     display: none;
 }
 .portfolio-card1--c,
@@ -607,42 +582,33 @@ input,textarea{
 .portfolio-card3--c,
 .portfolio-card4--c,
 .portfolio-card5--c,
-.portfolio-card6--c{
+.portfolio-card6--c,
+.portfolio-card7--c,
+.portfolio-card8--c,
+.portfolio-card9--c,
+.portfolio-card10--c{
     display: unset;
 }
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
-
 }
 #sidebar-card1{
     flex-basis: 45%;
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
 }
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
 }
 }
 @media screen and (max-width:999px) and (min-width:810px){
@@ -666,7 +632,11 @@ input,textarea{
 .portfolio-card3--a,
 .portfolio-card4--a,
 .portfolio-card5--a,
-.portfolio-card6--a{
+.portfolio-card6--a,
+.portfolio-card7--a,
+.portfolio-card8--a,
+.portfolio-card9--a,
+.portfolio-card10--a{
     display: none;
 }
 .portfolio-card1--d,
@@ -674,7 +644,11 @@ input,textarea{
 .portfolio-card3--d,
 .portfolio-card4--d,
 .portfolio-card5--d,
-.portfolio-card6--d{
+.portfolio-card6--d,
+.portfolio-card7--d,
+.portfolio-card8--d,
+.portfolio-card9--d,
+.portfolio-card10--d{
     display: unset;
 }
 #about-right{
@@ -683,7 +657,7 @@ input,textarea{
 .icon-card{
     width: 43%;
     margin: 0 1.5rem 1.3rem 0;
-    height: 37vh;
+    height: 290px;
 
 }
 #bio{
@@ -694,19 +668,17 @@ input,textarea{
 #portfolio{
     padding: 3rem 3rem 0 3rem;
 }
-.portfolio-card1,.portfolio-card3,.portfolio-card5{
+.portfolio-card1,.portfolio-card3,.portfolio-card5,.portfolio-card7, .portfolio-card9{
     margin:0 3rem 3rem;
 }
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
+    
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
@@ -717,19 +689,12 @@ input,textarea{
     margin-right: 3rem;
     width:50%;
     text-align: right;
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
+    
 }
 #sidebar-card2{
     flex-basis: 45%;
     width:50%;
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
+   
 }
 }
 @media screen and (max-width:924px) and (min-width:810px){
@@ -740,9 +705,6 @@ input,textarea{
     .image6{
         display: unset;
     }
-    /* #about-right{
-        padding: 8rem 3rem;
-    } */
     #picture-right{
         padding: 4rem 0;
     }
@@ -765,14 +727,7 @@ input,textarea{
         margin: 0 auto;
         padding: 0 0 2rem 5rem;
     }
-    /* #picture-right{
-        flex-basis: 100%;
-        background-image: url('../images/LRM_EXPORT_21721874864411_20190830_085149507.jpeg');
-        background-size: cover;
-        width: 500px;
-        height: 800px;
-        background-repeat:no-repeat;
-    } */
+    
         #profile-right{
             flex-flow: column wrap;
         }
@@ -783,9 +738,7 @@ input,textarea{
     height: 50%;
 
         }
-        /* #picture-right{
-            height: 50vh;
-        } */
+        
     #about-section{
         flex-flow: column wrap;
         padding: 2rem ;
@@ -804,7 +757,7 @@ input,textarea{
     .icon-card{
         flex-basis: 45%;
         width:100%;
-        height: 35vh;
+        height:270px;
     margin: 0 0 1rem 0;
 
     }
@@ -817,7 +770,7 @@ input,textarea{
     #portfolio div{
         margin-bottom: 2rem;
     }
-    .portfolio-card1,.portfolio-card3,.portfolio-card5{
+    .portfolio-card1,.portfolio-card3,.portfolio-card5,.portfolio-card7, .portfolio-card9{
         margin:0;
     }
     .portfolio-card1--a,
@@ -825,7 +778,11 @@ input,textarea{
     .portfolio-card3--a,
     .portfolio-card4--a,
     .portfolio-card5--a,
-    .portfolio-card6--a{
+    .portfolio-card6--a,
+    .portfolio-card7--a,
+    .portfolio-card8--a,
+    .portfolio-card9--a,
+    .portfolio-card10--a{
         display: none;
     }
     .portfolio-card1--d,
@@ -833,7 +790,11 @@ input,textarea{
 .portfolio-card3--d,
 .portfolio-card4--d,
 .portfolio-card5--d,
-.portfolio-card6--d{
+.portfolio-card6--d,
+.portfolio-card7--d,
+.portfolio-card8--d,
+.portfolio-card9--d,
+.portfolio-card10--d{
     display: unset;
 }
 .skillAndContact{
@@ -889,12 +850,24 @@ form{
     #picture-right{
         padding: 0 0 2rem 0rem;
     }
+    .about-name{
+        font-size: 3.7rem;
+    }
+}
+@media screen and (max-width:780px) and (min-width:670px){
+    .icon-card{
+        flex-basis: 100%;
+        width:100%;
+        height: 250px;
+        margin: 0 0 1rem 0;
+    }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 669.98px) {
     #left-wrapper{
         display:none;
     }
+    
 #right-wrapper{
     margin-left: 0;
 }
@@ -918,18 +891,15 @@ padding: 8rem 2rem;
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    /* padding: 0 0 2rem 5rem; */
 }
 .sidebar{
     display: unset;
     width:    100%;
-    /* padding: 2rem; */
 }
 .sidebar-inner{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* width: 50%; */
+   
     margin: 0 auto;
     padding: 2rem;
     background-color: #100D08;
@@ -938,28 +908,12 @@ padding: 8rem 2rem;
 }
 #sidebar-card1{
     flex-basis: 45%;
-    /* margin-right: 0; */
-    /* width:100%; */
     margin: 0 auto;
-    /* text-align: center; */
-
-    /* text-align: right; */
-    /* background-color: #030201; */
-    /* width: 50%; */
-    /* margin */
-    /* background-color: #C09181; */
 }
 #sidebar-card2{
     flex-basis: 45%;
-    /* width:100%; */
     margin: 0 auto;
 
-    /* text-align: center; */
-    /* text-align: right; */
-
-
-    /* width: 50%;
-    margin: 0 auto; */
 }
 #profile-right{
     flex-flow: column wrap;
@@ -968,17 +922,10 @@ padding: 8rem 2rem;
     flex-basis: 100%;
     width: 100%;
 padding: 8rem 2rem;
-
-
 }
-/* #picture-right{
-    height: 50vh;
-} */
 #about-section{
 flex-flow: column wrap;
 padding: 2rem ;
-
-
 }
 #bio{
 flex-basis: 100%;
@@ -992,12 +939,15 @@ margin-bottom: 2rem;
 .icon-card{
 flex-basis: 45%;
 width:100%;
-height: 40vh;
-margin: 0 0 1rem 0;
+height: 250px;
+margin: 0 auto 1rem auto;
 
 }
 .left{
 margin-right: 2rem;
+}
+.right{
+    width: 55%;
 }
 #portfolio{
 flex-flow: column wrap;
@@ -1005,7 +955,7 @@ flex-flow: column wrap;
 #portfolio div{
 margin-bottom: 2rem;
 }
-.portfolio-card1,.portfolio-card3,.portfolio-card5{
+.portfolio-card1,.portfolio-card3,.portfolio-card5,.portfolio-card7,.portfolio-card9{
 margin:0;
 }
 .portfolio-card1--a,
@@ -1013,7 +963,11 @@ margin:0;
 .portfolio-card3--a,
 .portfolio-card4--a,
 .portfolio-card5--a,
-.portfolio-card6--a{
+.portfolio-card6--a,
+.portfolio-card7--a,
+.portfolio-card8--a,
+.portfolio-card9--a,
+.portfolio-card10--a{
 display: none;
 }
 .portfolio-card1--e,
@@ -1021,7 +975,11 @@ display: none;
 .portfolio-card3--e,
 .portfolio-card4--e,
 .portfolio-card5--e,
-.portfolio-card6--e{
+.portfolio-card6--e,
+.portfolio-card7--e,
+.portfolio-card8--e,
+.portfolio-card9--e,
+.portfolio-card10--e{
 display: unset;
 }
 .skillAndContact{
@@ -1044,30 +1002,63 @@ margin:0 auto;
 .image7{
     display: unset;
 }
+.about-name{
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: #C09181;
+    padding: 3rem 0 1.5rem 0;
 }
-@media (max-width:374px){
-.image1,.image2,.image3,.image4,.image5,.image6{
-    display: none;
+#about-right{
+    padding: 8rem 2rem 2rem;
 }
-.image7{
-    display: unset;
+#profile-social{
+    margin: 5.3rem 0;
 }
+#profile-social a{
+   padding-right:1.5rem ;
+}
+.icon-card{
+    flex-basis: 45%;
+    width:100%;
+    height: 270px;
+    margin: 0 auto 1rem auto;
+    
+    }
+    .left{
+    margin-right: 2rem;
+    }
+}
+@media (max-width:410px){
+    .image1,.image2,.image3,.image4,.image5,.image6{
+        display: none;
+    }
+    .image7{
+        display: unset;
+    }
     .icon-card{
         flex-basis: 100%;
         width:100%;
-        height: 40vh;
+        height: 250px;
         margin: 0 0 1rem 0;
-        
-        }
-        .left{
-            margin-right: 0;
-            }
-            .about-name{
-                
-                font-weight: 800;
-                font-size: 4rem;
-                color: #C09181;
-                padding: 3rem 0 1.5rem 0;
-            }
+    }
+    .left{
+        margin-right: 0;
+    }
+    .about-name{
+        font-weight: 800;
+        font-size: 3.5rem;
+        color: #C09181;
+        padding: 3rem 0 1.5rem 0;
+    }
+    #about-right{
+        padding: 8rem 2rem 2rem;
+    }
+    #profile-social{
+        margin: 5.3rem 0;
+    }
+    #profile-social a{
+       padding-right:1.5rem ;
+    }
+    
             
 }
