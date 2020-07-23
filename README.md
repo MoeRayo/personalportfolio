@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out my personal portfolio web page.
+Thank you for checking out my personal portfolio web page.
 
 **This task was completed with HTML CSS and Javascript.**
 
